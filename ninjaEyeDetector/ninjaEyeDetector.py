@@ -54,6 +54,9 @@ while(True):
 
     if cv2.waitKey(2) & 0xFF == ord('q'):
         break
+
+        for i in range(12):
+
 # Release VideoCapture object
 cap.release()
 
